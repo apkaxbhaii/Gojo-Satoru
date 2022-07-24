@@ -3707,38 +3707,8 @@ case 'allmenu': {
 ┃╠${prefix}slow [reply aud]
 ┃╠${prefix}squirrel [reply aud]
 ┃╠══✪「 ISLAMIC 」☯︎
-┃╠${prefix}juzamma
-┃╠══✪「 HOROSCOPE 」☯︎
-┃╠${prefix}nomorhoki (indo)
-┃╠${prefix}artimimpi (indo)
-┃╠${prefix}artinama (indo)
-┃╠${prefix}ramaljodoh (indo)
-┃╠${prefix}ramaljodohbali (indo)
-┃╠${prefix}suamiistri (indo)
-┃╠${prefix}ramalcinta (indo)
-┃╠${prefix}cocoknama (indo)
-┃╠${prefix}pasangan (indo)
-┃╠${prefix}jadiannikah (indo)
-┃╠${prefix}sifatusaha (indo)
-┃╠${prefix}rezeki (indo)
-┃╠${prefix}pekerjaan (indo)
-┃╠${prefix}nasib (indo)
-┃╠${prefix}penyakit (indo)
-┃╠${prefix}tarot (indo)
-┃╠${prefix}fengshui (indo)
-┃╠${prefix}haribaik (indo)
-┃╠${prefix}harisangar (indo)
-┃╠${prefix}harisial (indo)
-┃╠${prefix}nagahari (indo)
-┃╠${prefix}arahrezeki (indo)
-┃╠${prefix}peruntungan (indo)
-┃╠${prefix}weton (indo)
-┃╠${prefix}karakter (indo)
-┃╠${prefix}keberuntungan (indo)
-┃╠${prefix}memancing (indo)
-┃╠${prefix}masasubur (indo)
-┃╠${prefix}zodiak (indo)
-┃╠${prefix}shio (indo)
+┃╠${prefix} soon
+┃╠══✪「 Soon 」☯︎
 ┃╚═══════✍︎ - AYAAZIII
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -4056,7 +4026,7 @@ var unicorn = await getBuffer(picak+'Islamic Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔══✪「 ISLAMIC 」	        
-┃╠${prefix}juzamma
+┃╠${prefix}soon
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [] )
 break
@@ -4083,37 +4053,7 @@ case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
-┃╔══✪「 HOROSCOPE 」	        
-┃╠${prefix}nomorhoki (indo)
-┃╠${prefix}artimimpi (indo)
-┃╠${prefix}artinama (indo)
-┃╠${prefix}ramaljodoh (indo)
-┃╠${prefix}ramaljodohbali (indo)
-┃╠${prefix}suamiistri (indo)
-┃╠${prefix}ramalcinta (indo)
-┃╠${prefix}cocoknama (indo)
-┃╠${prefix}pasangan (indo)
-┃╠${prefix}jadiannikah (indo)
-┃╠${prefix}sifatusaha (indo)
-┃╠${prefix}rezeki (indo)
-┃╠${prefix}pekerjaan (indo)
-┃╠${prefix}nasib (indo)
-┃╠${prefix}penyakit (indo)
-┃╠${prefix}tarot (indo)
-┃╠${prefix}fengshui (indo)
-┃╠${prefix}haribaik (indo)
-┃╠${prefix}harisangar (indo)
-┃╠${prefix}harisial (indo)
-┃╠${prefix}nagahari (indo)
-┃╠${prefix}arahrezeki (indo)
-┃╠${prefix}peruntungan (indo)
-┃╠${prefix}weton (indo)
-┃╠${prefix}karakter (indo)
-┃╠${prefix}keberuntungan (indo)
-┃╠${prefix}memancing (indo)
-┃╠${prefix}masasubur (indo)
-┃╠${prefix}zodiak (indo)
-┃╠${prefix}shio (indo)
+┃╔══✪「 Soon 」	        
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [] )
 break
