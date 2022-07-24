@@ -4140,7 +4140,7 @@ case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 Thanks to Me ( AYAAZIII)
-
+ !!!`,unicorn, [] )
 break
             default:
                 if (budy.startsWith('=>')) {
