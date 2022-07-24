@@ -3379,9 +3379,6 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤✑  Shashi burina thaicho🎉
-││✑  🐦🖐️!!
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3401,11 +3398,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                     url: `${myweb}`
                                 }
                             }, {
-                            	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: `${sc}`
-                                }
-                            }, {
+                         
                                 quickReplyButton: {
                                     displayText: '🍇All Menu🍇',
                                     id: `${prefix}allmenu`
@@ -3440,8 +3433,6 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `
 ┌─❖
 │「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤✑  Daijobka sempai?😄
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3461,11 +3452,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                     url: `${myweb}`
                                 }
                             }, {
-                            	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: `${sc}`
-                                }
-                            }, {
+                            
                                 quickReplyButton: {
                                     displayText: 'All Menu🎉',
                                     id: `${prefix}allmenu`
@@ -3617,7 +3604,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/nexusNw/Gojo-Satoru\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : AYAAZIII ${myweb}\n`)
             }
             break
 case 'allmenu': {
@@ -3848,7 +3835,7 @@ case 'allmenu': {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝑁𝑒𝑥𝑢𝑠𝑁𝑤
+┃╚═══════✍︎ - AYAAZIII
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -4259,10 +4246,8 @@ break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-Thanks to Me ( NexusNw)
-Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project)
-DGXeon ( 45% Credits goes to him ,in this script)
-And Again Me (King Nexus 🎉) 🐦 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
+Thanks to Me ( AYAAZIII)
+ !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
