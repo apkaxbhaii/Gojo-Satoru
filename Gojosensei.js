@@ -1719,11 +1719,7 @@ break
                                     displayText: '🎀Menu🎀',
                                     id: 'menu'
                                 }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: 'owner'
-                                }
+                           
                             }]
                       let txt = `「 GOJO-SATORU HERE🎉 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
@@ -1753,11 +1749,7 @@ break
                                     displayText: '🎀Menu🎀',
                                     id: 'menu'
                                 }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: 'owner'
-                                }
+                          
                             }]
                       let txt = `「 GOJO-SATORU HERE 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
@@ -3355,11 +3347,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                     displayText: '🍒List Menu🍒',
                                     id: `${prefix}command`
                                 }
-                                }, {
-                                quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
-                                }
+                             
                             }]
                         }
                     }
@@ -3767,11 +3755,7 @@ case 'allmenu': {
                                     displayText: 'YouTube📍',
                                     url: `${myweb}`
                                 }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
-                                }
+                           
                             }]
                         }
                     }
