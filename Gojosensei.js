@@ -3314,7 +3314,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
-                             {
+                            
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
@@ -3363,7 +3363,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
-                             {
+                            
+						
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
@@ -3747,7 +3748,7 @@ case 'allmenu': {
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
-                            {
+                            
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
