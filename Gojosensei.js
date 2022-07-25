@@ -2322,10 +2322,10 @@ break
 			case 'Hi': case 'hii': {
            
                 let buttonMessage = {
-                    image: { url: '' },
+                    image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `Kese Ho ??`,
                     footer: GojoMdNx.user.name,
-                  
+                    buttons: buttons,
                     headerType: 4
                 }
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
