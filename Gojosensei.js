@@ -3329,7 +3329,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                              
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
-│└───────────────┈ ⳹
+│└───────────────┈
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
