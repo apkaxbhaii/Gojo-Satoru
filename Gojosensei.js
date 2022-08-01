@@ -2332,43 +2332,6 @@ break
             }
             break
 		
-                let buttonMessage = {
-                    image: { url: 'https://coffee.alexflipnote.dev/random' },
-                    caption: `Kese Ho ??`,
-                    footer: GojoMdNx.user.name,
-                    
-                    headerType: 4
-                }
-                GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
-            }
-		case 'ytmenu':
-	    "title": "Download Menu",
-	    "description": "Displays The List Of Download Features
-┏━「 ${botname} 」━━⭓ 
-┃╔═✪「 DOWNLOADER 」	        
-┃╠${prefix}ytmp3 [url|quality]
-┃╠${prefix}ytmp4 [url|quality]
-┃╠${prefix}getmusic [yt link]
-┃╠${prefix}getvideo [yt link]
-┃╠${prefix}umma [query]
-┃╠${prefix}joox [query]
-┃╠${prefix}soundcloud [url]
-┃╚═════════════✪
-┃╔══✪「 SEARCHER 」	        
-┃╠${prefix}play [query]
-┃╠${prefix}song [query]
-┃╠${prefix}yts [query]
-┃╠${prefix}google [query]
-┃╠${prefix}gimage [query]
-┃╠${prefix}pinterest [query]
-┃╠${prefix}wallpaper [query]
-┃╠${prefix}wikimedia [query]
-┃╠${prefix}ytsearch [query]
-┃╠${prefix}ringtone [query]
-┃╠${prefix}webtoon [query]
-┃╚═════════════✪
-",
-break
             case 'wallpaper': {
                 if (!text) return reply(`Enter Query Title`)
 		let { wallpaper } = require('./lib/scraper')
