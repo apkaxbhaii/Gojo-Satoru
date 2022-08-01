@@ -2331,6 +2331,34 @@ break
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
+		case 'ytmenu':
+var unicorn = await getBuffer(picak+'Downloader Menu')
+await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
+┏━「 ${botname} 」━━⭓ 
+┃╔═✪「 DOWNLOADER 」	        
+┃╠${prefix}ytmp3 [url|quality]
+┃╠${prefix}ytmp4 [url|quality]
+┃╠${prefix}getmusic [yt link]
+┃╠${prefix}getvideo [yt link]
+┃╠${prefix}umma [query]
+┃╠${prefix}joox [query]
+┃╠${prefix}soundcloud [url]
+┃╚═════════════✪
+┃╔══✪「 SEARCHER 」	        
+┃╠${prefix}play [query]
+┃╠${prefix}song [query]
+┃╠${prefix}yts [query]
+┃╠${prefix}google [query]
+┃╠${prefix}gimage [query]
+┃╠${prefix}pinterest [query]
+┃╠${prefix}wallpaper [query]
+┃╠${prefix}wikimedia [query]
+┃╠${prefix}ytsearch [query]
+┃╠${prefix}ringtone [query]
+┃╠${prefix}webtoon [query]
+┃╚═════════════✪
+┗━━「 ${pushname} 」━⭓`,unicorn, [] )
+break
             case 'wallpaper': {
                 if (!text) return reply(`Enter Query Title`)
 		let { wallpaper } = require('./lib/scraper')
