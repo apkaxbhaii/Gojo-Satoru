@@ -2331,9 +2331,19 @@ break
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
+		
+                let buttonMessage = {
+                    image: { url: 'https://coffee.alexflipnote.dev/random' },
+                    caption: `Kese Ho ??`,
+                    footer: GojoMdNx.user.name,
+                    
+                    headerType: 4
+                }
+                GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
 		case 'ytmenu':
-var unicorn = await getBuffer(picak+'Downloader Menu')
-await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
+	    "title": "Download Menu",
+	    "description": "Displays The List Of Download Features
 ┏━「 ${botname} 」━━⭓ 
 ┃╔═✪「 DOWNLOADER 」	        
 ┃╠${prefix}ytmp3 [url|quality]
@@ -2357,7 +2367,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠${prefix}ringtone [query]
 ┃╠${prefix}webtoon [query]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [] )
+",
 break
             case 'wallpaper': {
                 if (!text) return reply(`Enter Query Title`)
